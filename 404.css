@@ -1,0 +1,67 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 678px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: PixeloidMono;
+  font-size: 4.5rem;
+  margin: 79px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: PixeloidMono;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: raster;
+  width: 266px;
+  margin: 14px auto 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 570px;
+  height: 267px;
+  margin: 8px auto 60px;
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 664px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 253px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 570px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 159px;
+  }
+}@font-face {
+  font-family: 'PixeloidMono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/PixeloidMono.otf);
+}@font-face {
+  font-family: 'raster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/raster.ttf);
+}@font-face {
+  font-family: 'DotGothic16-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/DotGothic16-Regular.ttf);
+}
