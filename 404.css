@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 678px;
+  min-height: 650px;
 }
 
 .u-section-1 .u-text-1 {
@@ -15,19 +15,18 @@
 
 .u-section-1 .u-text-3 {
   font-family: raster;
-  width: 266px;
-  margin: 14px auto 0;
+  margin: 13px auto 0;
 }
 
 .u-section-1 .u-image-1 {
   width: 570px;
   height: 267px;
-  margin: 8px auto 60px;
+  margin: 0 auto 60px;
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 664px;
+    min-height: 636px;
   }
 
   .u-section-1 .u-image-1 {
@@ -38,7 +37,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 570px;
+    min-height: 542px;
   }
 
   .u-section-1 .u-text-1 {
