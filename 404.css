@@ -26,12 +26,16 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 636px;
+    min-height: 646px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 540px;
-    height: 253px;
+    height: 248px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 }
 
@@ -45,8 +49,11 @@
   }
 
   .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 159px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 }@font-face {
   font-family: 'PixeloidMono';

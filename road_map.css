@@ -11,7 +11,6 @@
   min-height: 1716px;
   margin-bottom: 39px;
   margin-top: 82px;
-  height: auto;
 }
 
 .u-section-1 .u-tab-link-1 {
@@ -300,12 +299,16 @@
     min-height: 1718px;
   }
 
+  .u-section-1 .u-tabs-1 {
+    height: auto;
+  }
+
   .u-section-1 .u-text-2 {
     font-family: PixeloidMono;
   }
 
   .u-section-1 .u-table-1 {
-    width: 940px;
+    width: 874px;
   }
 
   .u-section-1 .u-table-2 {
@@ -318,8 +321,17 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2425px;
+  }
+
+  .u-section-1 .u-tabs-1 {
+    min-height: 2298px;
+    margin-bottom: 45px;
+  }
+
   .u-section-1 .u-table-1 {
-    width: 720px;
+    width: 654px;
   }
 
   .u-section-1 .u-table-2 {
@@ -332,6 +344,15 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2968px;
+  }
+
+  .u-section-1 .u-tabs-1 {
+    min-height: 2856px;
+    margin-bottom: 30px;
+  }
+
   .u-section-1 .u-table-1 {
     width: 540px;
   }
@@ -346,8 +367,17 @@
   }
 
   .u-section-1 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: 429px;
+    margin-top: 69px;
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-top: 39px;
   }
 
   .u-section-1 .u-table-3 {
@@ -356,8 +386,27 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 4301px;
+  }
+
+  .u-section-1 .u-tabs-1 {
+    min-height: 4193px;
+    margin-bottom: 26px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 65px;
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+
   .u-section-1 .u-text-2 {
-    width: 340px;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 21px;
+    margin-right: 21px;
   }
 
   .u-section-1 .u-table-1 {
@@ -372,12 +421,22 @@
     width: 320px;
   }
 
+  .u-section-1 .u-text-5 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   .u-section-1 .u-text-6 {
-    width: 320px;
+    width: auto;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .u-section-1 .u-table-3 {
-    width: 320px;
+    width: 340px;
+    margin-top: 59px;
   }
 }@font-face {
   font-family: 'DotGothic16-Regular';

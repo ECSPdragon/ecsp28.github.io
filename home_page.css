@@ -53,11 +53,14 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    margin-right: 0;
+    margin-top: 202px;
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 26px;
     margin-left: 0;
   }
 }
@@ -72,7 +75,6 @@
 
   .u-section-1 .u-text-2 {
     font-size: 1.25rem;
-    width: auto;
     margin-top: 0;
     margin-right: -31px;
     margin-left: 31px;
@@ -124,12 +126,20 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 450px;
+  }
+
   .u-section-2 .u-text-1 {
-    margin-right: 184px;
+    width: auto;
+    margin-top: 37px;
+    margin-right: auto;
+    margin-left: 92px;
   }
 
   .u-section-2 .u-text-2 {
     width: 540px;
+    margin-top: 11px;
   }
 
   .u-section-2 .u-text-3 {
@@ -139,7 +149,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
-    margin-right: 116px;
+    margin-left: 46px;
   }
 
   .u-section-2 .u-text-2 {
@@ -250,7 +260,10 @@
   }
 
   .u-section-3 .u-text-2 {
-    margin-right: 87px;
+    width: auto;
+    margin-top: -281px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }@font-face {
   font-family: 'PixeloidMono';
