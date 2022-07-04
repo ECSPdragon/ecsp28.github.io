@@ -1,11 +1,17 @@
+ .u-section-1 {
+  background-image: url("images/Background.png?rand=ec1a");
+  background-position: 50% 50%;
+}
+
 .u-section-1 .u-sheet-1 {
-  min-height: 1718px;
+  min-height: 1837px;
 }
 
 .u-section-1 .u-tabs-1 {
-  min-height: 904px;
-  margin-bottom: 60px;
-  margin-top: 0;
+  min-height: 1716px;
+  margin-bottom: 39px;
+  margin-top: 82px;
+  height: auto;
 }
 
 .u-section-1 .u-tab-link-1 {
@@ -27,7 +33,7 @@
 }
 
 .u-section-1 .u-tab-pane-1 {
-  background-image: linear-gradient(rgba(215,51,214,0.71), rgba(71,138,201,0));
+  background-image: linear-gradient(rgba(215,51,214,0.71), rgba(215,51,214,0.2));
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -92,11 +98,11 @@
 }
 
 .u-section-1 .u-tab-pane-2 {
-  background-image: linear-gradient(rgba(215,51,214,0.71), rgba(71,138,201,0));
+  background-image: linear-gradient(rgba(215,51,214,0.71), rgba(215,51,214,0.2));
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 0 30px;
+  padding: 0 30px 30px;
 }
 
 .u-section-1 .u-text-3 {
@@ -225,7 +231,7 @@
 }
 
 .u-section-1 .u-tab-pane-3 {
-  background-image: linear-gradient(rgba(215,51,214,0.71), rgba(71,138,201,0));
+  background-image: linear-gradient(rgba(215,51,214,0.71), rgba(215,51,214,0.2));
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -290,8 +296,8 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-tabs-1 {
-    height: auto;
+  .u-section-1 .u-sheet-1 {
+    min-height: 1718px;
   }
 
   .u-section-1 .u-text-2 {
