@@ -70,4 +70,9 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/DotGothic16-Regular.ttf);
+}@font-face {
+  font-family: 'SUIT-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SUIT-Thin.otf);
 }

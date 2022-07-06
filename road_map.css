@@ -453,4 +453,9 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/raster.ttf);
+}@font-face {
+  font-family: 'SUIT-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SUIT-Thin.otf);
 }

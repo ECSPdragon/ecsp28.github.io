@@ -1,0 +1,202 @@
+ .u-section-1 {
+  background-image: url("images/pexels-ricardo-esquivel-1662159_edited.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 626px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: SUIT-Thin;
+  font-size: 6rem;
+  font-weight: 100;
+  margin: 105px auto 0 20px;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: SUIT-Thin;
+  font-weight: 700;
+  margin: 8px auto 0 20px;
+}
+
+.u-section-1 .u-text-3 {
+  font-family: SUIT-Thin;
+  font-weight: 700;
+  margin: 20px 626px 60px 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 516px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 426px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 395px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 206px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 296px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 26px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 186px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+} .u-section-2 {
+  background-image: url("images/pexels-photo-323705_edited.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 454px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: SUIT-Thin;
+  margin: 43px 58px 0 auto;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: SUIT-Thin;
+  font-weight: 700;
+  margin: 30px 58px 0 717px;
+}
+
+.u-section-2 .u-btn-1 {
+  border-style: none;
+  letter-spacing: 1px;
+  font-family: SUIT-Thin;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 153px auto 23px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 374px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 517px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 341px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 297px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 43px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 358px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 117px;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-top: 51px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 346px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-btn-1 {
+    margin-bottom: 31px;
+    padding: 9px 9px 11px 8px;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 179px;
+}
+
+.u-section-3 .u-text-1 {
+  font-family: SUIT-Thin;
+  margin: 23px auto 0;
+}
+
+.u-section-3 .u-text-2 {
+  font-family: SUIT-Thin;
+  font-size: 1.5rem;
+  margin: 10px auto 0;
+}
+
+.u-section-3 .u-text-3 {
+  font-family: SUIT-Thin;
+  font-size: 1.125rem;
+  margin: 20px auto 23px;
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 183px;
+  }
+
+  .u-section-3 .u-text-1 {
+    width: 272px;
+    margin-top: 27px;
+  }
+}@font-face {
+  font-family: 'SUIT-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SUIT-Thin.otf);
+}@font-face {
+  font-family: 'raster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/raster.ttf);
+}@font-face {
+  font-family: 'DotGothic16-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/DotGothic16-Regular.ttf);
+}
