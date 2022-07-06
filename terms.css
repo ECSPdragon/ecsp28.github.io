@@ -1,0 +1,53 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 299px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: DotGothic16-Regular;
+  margin: 150px auto 60px 41px;
+}.u-section-2 .u-sheet-1 {
+  min-height: 1090px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: DotGothic16-Regular;
+  margin: 74px auto 0;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: DotGothic16-Regular;
+  font-size: 1.25rem;
+  margin: -24px auto 60px 202px;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-2 {
+    margin-left: 152px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-2 {
+    margin-left: 96px;
+  }
+}@font-face {
+  font-family: 'DotGothic16-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/DotGothic16-Regular.ttf);
+}@font-face {
+  font-family: 'raster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/raster.ttf);
+}@font-face {
+  font-family: 'SUIT-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SUIT-Thin.otf);
+}

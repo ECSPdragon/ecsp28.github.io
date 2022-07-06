@@ -1,0 +1,30 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 299px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: DotGothic16-Regular;
+  margin: 150px auto 60px 41px;
+}.u-section-2 .u-sheet-1 {
+  min-height: 209px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: DotGothic16-Regular;
+  margin: 60px auto;
+}@font-face {
+  font-family: 'DotGothic16-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/DotGothic16-Regular.ttf);
+}@font-face {
+  font-family: 'raster';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/raster.ttf);
+}@font-face {
+  font-family: 'SUIT-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SUIT-Thin.otf);
+}
