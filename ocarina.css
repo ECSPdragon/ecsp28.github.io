@@ -1,15 +1,15 @@
  .u-section-1 {
   background-image: url("images/books-bookstore-book-reading-159711_edited.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1166px;
+  min-height: 1278px;
 }
 
 .u-section-1 .u-group-1 {
   width: 570px;
   min-height: 398px;
-  height: auto;
   background-image: none;
   margin: 132px auto 0;
 }
@@ -29,59 +29,71 @@
   margin: 11px 40px 0;
 }
 
-.u-section-1 .u-group-2 {
-  width: 922px;
-  min-height: 521px;
+.u-section-1 .u-custom-html-1 {
+  min-height: 540px;
   height: auto;
-  margin: 47px auto 48px;
+  width: 922px;
+  margin: 40px auto 0;
+}
+
+.u-section-1 .u-group-2 {
+  width: 445px;
+  min-height: 119px;
+  height: auto;
+  margin: 25px auto;
 }
 
 .u-section-1 .u-container-layout-2 {
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-section-1 .u-text-3 {
-  font-family: SUIT-Thin;
-  font-size: 1.5rem;
-  margin: 246px auto 0;
-}
-
-.u-section-1 .u-custom-html-1 {
-  height: auto;
-  min-height: 520px;
-  width: 922px;
-  margin: -272px 0 0;
+  font-size: 1.25rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 0 16px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 961px;
-  }
-
-  .u-section-1 .u-group-1 {
-    height: auto;
+    min-height: 1054px;
   }
 
   .u-section-1 .u-group-2 {
+    margin-left: 164px;
     height: auto;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 364px;
+    margin-left: 164px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1154px;
-  }
-
-  .u-section-1 .u-group-2 {
-    width: 720px;
+    min-height: 807px;
   }
 
   .u-section-1 .u-custom-html-1 {
     width: 720px;
   }
+
+  .u-section-1 .u-group-2 {
+    margin-left: 54px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 254px;
+    margin-left: 54px;
+  }
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 605px;
+  }
+
   .u-section-1 .u-group-1 {
     width: 540px;
   }
@@ -91,18 +103,23 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-group-2 {
+  .u-section-1 .u-custom-html-1 {
     width: 540px;
   }
 
-  .u-section-1 .u-custom-html-1 {
-    width: 540px;
+  .u-section-1 .u-group-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 128px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1180px;
+    min-height: 381px;
   }
 
   .u-section-1 .u-group-1 {
@@ -118,12 +135,17 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-group-2 {
+  .u-section-1 .u-custom-html-1 {
     width: 340px;
   }
 
-  .u-section-1 .u-custom-html-1 {
+  .u-section-1 .u-group-2 {
     width: 340px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
   }
 }@font-face {
   font-family: 'SUIT-Thin';
