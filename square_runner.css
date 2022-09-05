@@ -975,6 +975,12 @@
   margin: 30px auto 0;
 }
 
+.u-section-9 .u-text-3 {
+  font-family: raster;
+  font-size: 3rem;
+  margin: 20px auto 0;
+}
+
 .u-section-9 .u-btn-2 {
   letter-spacing: 1px;
   border-style: none;
@@ -982,12 +988,6 @@
   background-image: none;
   font-weight: 700;
   font-family: raster;
-  margin: 20px auto 0;
-}
-
-.u-section-9 .u-text-3 {
-  font-family: raster;
-  font-size: 3rem;
   margin: 20px auto 0;
 }
 
@@ -1002,16 +1002,6 @@
 }
 
 .u-section-9 .u-btn-4 {
-  letter-spacing: 1px;
-  border-style: none;
-  text-transform: uppercase;
-  background-image: none;
-  font-weight: 700;
-  font-family: raster;
-  margin: 20px auto 0;
-}
-
-.u-section-9 .u-btn-5 {
   letter-spacing: 1px;
   border-style: none;
   text-transform: uppercase;

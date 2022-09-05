@@ -39158,24 +39158,13 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 
-.u-footer .u-text-12 {
-  font-family: DotGothic16-Regular;
-  font-size: 1.25rem;
-  margin: 22px auto 0 19px;
-}
-
-.u-footer .u-btn-12 {
-  background-image: none;
-  padding: 0;
-}
-
 .u-footer .u-image-1 {
   width: 125px;
   height: 125px;
   margin: -262px auto 0 calc(((100% - 1140px) / 2) + 110px);
 }
 
-.u-footer .u-text-13 {
+.u-footer .u-text-12 {
   font-family: raster;
   line-height: 1.2;
   margin: 151px auto 60px calc(((100% - 1140px) / 2) + 334px);
@@ -39212,7 +39201,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: calc(((100% - 940px) / 2) + 70px);
   }
 
-  .u-footer .u-text-13 {
+  .u-footer .u-text-12 {
     width: auto;
     margin-top: 171px;
     margin-left: auto;
@@ -39250,7 +39239,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: auto;
   }
 
-  .u-footer .u-text-13 {
+  .u-footer .u-text-12 {
     margin-top: 425px;
     margin-bottom: 53px;
   }
@@ -39279,7 +39268,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -951px;
   }
 
-  .u-footer .u-text-13 {
+  .u-footer .u-text-12 {
     margin-top: 928px;
     margin-bottom: 60px;
   }
@@ -39302,7 +39291,7 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -951px;
   }
 
-  .u-footer .u-text-13 {
+  .u-footer .u-text-12 {
     width: 309px;
     margin-top: 932px;
     margin-bottom: 56px;
