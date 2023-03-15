@@ -38706,7 +38706,19 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-image-5 {
   width: 41px;
   height: 41px;
-  margin: -42px auto 26px 652px;
+  margin: -42px auto 0 652px;
+}
+
+.u-footer .u-text-2 {
+  margin: 30px auto 60px;
+}
+
+.u-footer .u-btn-1 {
+  background-image: none;
+  font-size: 1rem;
+  text-decoration: underline !important;
+  font-weight: 700;
+  padding: 0;
 }
 @media (max-width: 1199px) {
   .u-footer .u-image-1 {
