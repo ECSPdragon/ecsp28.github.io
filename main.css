@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "raster";
+    src: "raster.ttf";
+}
+
+.content {
+    background-color: #322243;
+}
+
+.logo {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    color:white;
+    font-family: "raster";
+}
+.phrase {
+    color:white;
+    font-family: "raster";
+    margin-top: -20px;
+}
+h3 {
+    color:white;
+    font-family: "raster";
+}
+
+.imgh {
+    opacity: 1;
+}
+.imgh:hover {
+    opacity: 0.8;
+}
+.cardcaption {
+    position: absolute;
+    bottom: 12px;
+    left: 26px;
+}
+
+
+
+.container {
+    position: relative;
+    font-family: "raster";
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+}
+.flexcontainer > div{
+    margin-left : 10px;
+    margin-right : 10px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    background-color: black;
+    padding:20px;
+    justify-content: center;
+}
+.logo-footer{
+    display: block;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flexcontainer-2{
+    display: flex;
+    justify-content: center;
+}
+.flexcontainer-2 > div{
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
