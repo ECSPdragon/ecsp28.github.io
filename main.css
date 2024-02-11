@@ -1,6 +1,6 @@
 @font-face {
     font-family: "raster";
-    src: "raster.ttf";
+    src: url(raster.ttf);
 }
 
 .content {
