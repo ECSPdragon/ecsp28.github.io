@@ -9,9 +9,10 @@
 h2 {
     font-family: "MatrixSans";
     color: white;
+    text-align: center;
 }
 body {
-    background-color: #6e4c92;
+    background-color: #141414;
     margin-top: -0px;
 }
 .left-header{
@@ -19,7 +20,7 @@ body {
     z-index: 9999;
     display: inline-block;
     background-color: rgba(255, 141, 148, 0.63);
-    margin: 0px 0px 0px -8px;
+    margin: -80px 0px 0px -8px;
     padding: 4px 16px 0px 12px;
 }
 .right-header{
@@ -63,8 +64,7 @@ footer {
 a.footer-item:link{
     color: darkgray;
     text-decoration: none;
-}
-a.footer-item:visited{
+}a.footer-item:visited{
     color: dimgray;
     text-decoration: none;
 }
@@ -93,7 +93,7 @@ a#navicon-sqr {
 }
 a#navicon-bdp {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_boredom.png)
+    background-image: url(assets/Navicons/navicons_boredom_s.png)
 }
 a#navicon-pfl {
     height: 36px;
@@ -120,85 +120,20 @@ a#navicon-abt:hover {
     background-image: url(assets/Navicons/navicons_about_s.png)
 }
 
-/* For the square runner, boredom project and allat boxes and logos*/
-.boxes {
-    margin-left: -8px;
-    margin-right: -8px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.boxes_row{
-    display: flex;
-}
-.boxes_sqr {
-    background-image: url("assets/square_runner_bg.jpg");
-    height: 800px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-.boxes_bdp {
-    background-image: url("assets/boredom_bg.png");
-    height: 600px;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}.boxes_pfl {
-    background-image: url("assets/portfolio_bg.png");
-    height: 600px;
-    width: 50%;
-    position: absolute;
-    right: 0px;
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
-    background-size: cover;
-}
-.boxes_twt {
-    background-image: linear-gradient(135deg, cornflowerblue, #29529d);
-    height: 400px;
-    width: 33%;
-}
-.boxes_yt {
-    background-image: linear-gradient(135deg, #ff7272, brown);
-    height: 400px;
-    width: 34%;
-    left: 33%;
-}
-.boxes_ctt {
-    background-image: linear-gradient(135deg, #ffc0c0, #ff7272);
-    height: 400px;
-    width: 33%;
-    right: 0px;
-}
-
-#sqr_logo {
+/* Contents */
+#logo {
     display: block;
+    margin-top: 80px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding: 200px;
 }
-#bdp_logo {
+iframe {
     display: block;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
 }
-.boxes_t{
-    font-size: 300%;
-    color: white;
-    font-family: "MatrixSans";
-    text-align: center;
-    margin-top: 250px;
-}.boxes_t2{
-    font-size: 300%;
-    color: white;
-    font-family: "MatrixSans";
-    text-align: center;
-    margin-top: 180px;
-}
-.title-link{
-    text-decoration: none;
-    color: white;
+.filler{
+    height: 400px;
 }
