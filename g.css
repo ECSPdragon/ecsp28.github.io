@@ -93,15 +93,14 @@ a#navicon-sqr {
 }
 a#navicon-bdp {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_boredom_s.png)
+    background-image: url(assets/Navicons/navicons_boredom.png)
 }
-a#navicon-pfl {
+a#navicon-rsc {
+    height: 36px;
+    background-image: url(assets/Navicons/navicons_resources.png)
+}a#navicon-pfl {
     height: 36px;
     background-image: url(assets/Navicons/navicons_portfolio.png)
-}
-a#navicon-abt {
-    height: 36px;
-    background-image: url(assets/Navicons/navicons_about.png)
 }
 a#navicon-sqr:hover {
     height: 36px;
@@ -111,13 +110,12 @@ a#navicon-bdp:hover {
     height: 36px;
     background-image: url(assets/Navicons/navicons_boredom_s.png)
 }
-a#navicon-pfl:hover {
+a#navicon-rsc:hover {
+    height: 36px;
+    background-image: url(assets/Navicons/navicons_resources_s.png)
+}a#navicon-pfl:hover {
     height: 36px;
     background-image: url(assets/Navicons/navicons_portfolio_s.png)
-}
-a#navicon-abt:hover {
-    height: 36px;
-    background-image: url(assets/Navicons/navicons_about_s.png)
 }
 
 /* Contents */
