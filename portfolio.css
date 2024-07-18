@@ -85,6 +85,7 @@ a#header-logo:hover {
     width: 36px;
     display: block;
     margin: 0px 0px 10px 0px;
+    vertical-align: bottom;
 }
 a#navicon-sqr {
     height: 36px;
@@ -115,87 +116,4 @@ a#navicon-rsc:hover {
 }a#navicon-pfl:hover {
     height: 36px;
     background-image: url(assets/Navicons/navicons_portfolio_s.png)
-}
-
-/* For the square runner, boredom project and allat boxes and logos*/
-.boxes {
-    margin-left: -8px;
-    margin-right: -8px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.boxes_row{
-    display: flex;
-}
-.boxes_sqr {
-    background-image: url("assets/square_runner_bg.jpg");
-    height: 800px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-.boxes_bdp {
-    background-image: url("assets/boredom_bg.png");
-    height: 600px;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}.boxes_pfl {
-    background-image: url("assets/portfolio_bg.png");
-    height: 600px;
-    width: 50%;
-    position: absolute;
-    right: 0px;
-    background-repeat: no-repeat;
-    background-position: 30% 50%;
-    background-size: cover;
-}
-.boxes_twt {
-    background-image: linear-gradient(135deg, cornflowerblue, #29529d);
-    height: 400px;
-    width: 33%;
-}
-.boxes_yt {
-    background-image: linear-gradient(135deg, #ff7272, brown);
-    height: 400px;
-    width: 34%;
-    left: 33%;
-}
-.boxes_ctt {
-    background-image: linear-gradient(135deg, #ffc0c0, #ff7272);
-    height: 400px;
-    width: 33%;
-    right: 0px;
-}
-
-#sqr_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 200px;
-}
-#bdp_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 250px;
-}
-.boxes_t{
-    font-size: 300%;
-    color: white;
-    font-family: "MatrixSans";
-    text-align: center;
-    margin-top: 250px;
-}.boxes_t2{
-    font-size: 300%;
-    color: white;
-    font-family: "MatrixSans";
-    text-align: center;
-    margin-top: 180px;
-}
-.title-link{
-    text-decoration: none;
-    color: white;
 }
