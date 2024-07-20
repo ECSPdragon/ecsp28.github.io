@@ -1,25 +1,24 @@
 @font-face {
     font-family: "MatrixSans";
     src: url("fonts/MatrixSans-Regular.woff2") format("woff2");
-    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-
-h2 {
-    font-family: "MatrixSans";
-    color: white;
+@font-face {
+    font-family: "JUSTsans";
+    src: url("fonts/JUSTSans-Rg.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
 }
 body {
     background-color: #6e4c92;
-    margin-top: -0px;
 }
 .left-header{
     position: fixed;
     z-index: 9999;
     display: inline-block;
     background-color: rgba(255, 141, 148, 0.63);
-    margin: 0px 0px 0px -8px;
+    margin: 8px 0px 0px -8px;
     padding: 4px 16px 0px 12px;
 }
 .right-header{
@@ -117,85 +116,112 @@ a#navicon-rsc:hover {
     background-image: url(assets/Navicons/navicons_portfolio_s.png)
 }
 
-/* For the square runner, boredom project and allat boxes and logos*/
-.boxes {
+/* Stuff */
+.body-presentation {
+    font-family: "JUSTsans";
+    color: white;
+    height: 900px;
     margin-left: -8px;
     margin-right: -8px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    margin-top: -20px;
+    background-image: url(assets/squares.png);
+    overflow: hidden;
 }
-.boxes_row{
-    display: flex;
-}
-.boxes_sqr {
-    background-image: url("assets/square_runner_bg.jpg");
-    height: 800px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-.boxes_bdp {
-    background-image: url("assets/boredom_bg.png");
-    height: 600px;
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}.boxes_pfl {
-    background-image: url("assets/portfolio_bg.png");
-    height: 600px;
-    width: 50%;
+.body-presentation-text {
+    display: inline-block;
+    margin-top: 260px;
+    margin-left: 120px;
     position: absolute;
-    right: 0px;
+}
+.body-presentation-header {
+    font-size: 100px;
+    margin-bottom: -50px;
+}
+.body-presentation-subheader {
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+.body-presentation-checkit {
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+.body-presentation-ecspdragon {
+    width: 100%;
+    height: inherit;
+    background-position: 90% 70%;
+    background-size: 520px;
     background-repeat: no-repeat;
-    background-position: 30% 50%;
-    background-size: cover;
-}
-.boxes_twt {
-    background-image: linear-gradient(135deg, cornflowerblue, #29529d);
-    height: 400px;
-    width: 33%;
-}
-.boxes_yt {
-    background-image: linear-gradient(135deg, #ff7272, brown);
-    height: 400px;
-    width: 34%;
-    left: 33%;
-}
-.boxes_ctt {
-    background-image: linear-gradient(135deg, #ffc0c0, #ff7272);
-    height: 400px;
-    width: 33%;
-    right: 0px;
+    background-image: url(assets/ecspdragon.svg);
 }
 
-#sqr_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 200px;
-}
-#bdp_logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 250px;
-}
-.boxes_t{
-    font-size: 300%;
-    color: white;
-    font-family: "MatrixSans";
+.body-abitmore {
+    font-family: "JUSTsans";
+    color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 50px;
+    background-color: #ffffff;
+    overflow: hidden;
     text-align: center;
-    margin-top: 250px;
-}.boxes_t2{
-    font-size: 300%;
-    color: white;
-    font-family: "MatrixSans";
-    text-align: center;
-    margin-top: 180px;
 }
-.title-link{
-    text-decoration: none;
+.body-abitmore-box{
+    background-image: linear-gradient(#d1026d, #0037a3);
+    width: 750px;
+    padding: 20px 30px 50px 30px;
+    margin: 60px auto 0px auto;
+    border-radius: 50px;
+}
+.body-abitmore-text {
+    text-align: left;
     color: white;
+    max-width: 700px;
+    font-size: 20px;
+    margin: 10px auto 20px auto;
+}
+h1.body-abitmore-text {
+    text-align: center;
+    color: white;
+    max-width: 700px;
+    font-size: 60px;
+    margin: -20px auto 30px auto;
+}
+#body-abitmore-pfp{
+    width: 288px;
+    height: 288px;
+}
+.body-abitmore-images {
+    max-width: 730px;
+}
+
+.body-projects{
+    font-family: "JUSTsans";
+    color: black;
+    background-color: #dddddd;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.body-projects-flex{
+    display: flex;
+    justify-content: center;
+}
+.body-projects-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+.body-projects-image{
+    width: 480px;
+    height: 270px;
+}
+.body-projects-text{
+    margin: 0px;
+    max-width: 250px;
+}
+h4.body-projects-text{
+    margin-top: 30px;
+    max-width: 250px;
 }
