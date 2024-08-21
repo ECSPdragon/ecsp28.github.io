@@ -87,18 +87,11 @@ a#header-logo:hover {
 }
 a#navicon-sqr {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_sqr.png)
+    background-image: url(assets/Navicons/navicons_sqr_s.png)
 }
 a#navicon-bdp {
     height: 36px;
     background-image: url(assets/Navicons/navicons_boredom.png)
-}
-a#navicon-rsc {
-    height: 36px;
-    background-image: url(assets/Navicons/navicons_resources.png)
-}a#navicon-pfl {
-    height: 36px;
-    background-image: url(assets/Navicons/navicons_portfolio.png)
 }
 a#navicon-sqr:hover {
     height: 36px;
@@ -107,13 +100,6 @@ a#navicon-sqr:hover {
 a#navicon-bdp:hover {
     height: 36px;
     background-image: url(assets/Navicons/navicons_boredom_s.png)
-}
-a#navicon-rsc:hover {
-    height: 36px;
-    background-image: url(assets/Navicons/navicons_resources_s.png)
-}a#navicon-pfl:hover {
-    height: 36px;
-    background-image: url(assets/Navicons/navicons_portfolio_s.png)
 }
 
 /* Stuff */
@@ -124,92 +110,97 @@ a#navicon-rsc:hover {
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -20px;
-    background-image: url(assets/squares.png);
     overflow: hidden;
+    background-image: url(assets/square_runner_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.body-presentation-text {
-    display: inline-block;
-    margin-top: 260px;
-    margin-left: 120px;
+.body-presentation-logo {
+    display: block;
+    margin: 0px auto 0px auto;
+    padding-top: 200px;
+    width: 700px;
+}
+
+.body-title{
+    height: 70px;
+    background-color: black;
+    width: 300px;
+    margin-left: -8px;
     position: absolute;
 }
-.body-presentation-header {
-    font-size: 100px;
-    margin-bottom: -50px;
-}
-.body-presentation-subheader {
-    font-size: 40px;
-    margin-bottom: -20px;
-}
-.body-presentation-checkit {
-    font-size: 20px;
-    margin-bottom: -20px;
-}
-.body-presentation-ecspdragon {
-    width: 100%;
-    height: inherit;
-    background-position: 90% 70%;
-    background-size: 520px;
-    background-repeat: no-repeat;
-    background-image: url(assets/ecspdragon.svg);
-}
-
-.body-abitmore {
-    font-family: "JUSTsans";
-    color: black;
+.body-features {
+    height: 1600px;
+    background-image: url(assets/square_runner_ambient.png);
+    background-size: cover;
     margin-left: -8px;
     margin-right: -8px;
-    padding: 50px;
-    background-color: #000000;
-    overflow: hidden;
-    text-align: left;
-}
-.body-abitmore-flex{
-    display: flex;
-    justify-content: center;
-}
-.body-abitmore-text {
-    text-align: left;
-    color: white;
-    max-width: 700px;
-    font-size: 20px;
-    margin-top: 8px;
-    margin-left: 15px;
-}
-.body-abitmore-img{
-    width: 410px;
-    height: 512px;
-}
-
-.body-projects{
-    font-family: "JUSTsans";
-    color: black;
-    background-color: #dddddd;
-    margin-left: -8px;
-    margin-right: -8px;
-    padding: 20px;
-    overflow: hidden;
+    font-family: 'MatrixSans';
     text-align: center;
 }
-.body-projects-flex{
-    display: flex;
-    justify-content: center;
-}
-.body-projects-column{
+.body-features-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.body-projects-image{
-    width: 480px;
-    height: 270px;
+p {
+    font-size: 20px;
 }
-.body-projects-text{
-    margin: 0px;
-    max-width: 250px;
+.body-features-box1{
+    margin-top: 50px;
+    background-color: white;
+    border: 8px solid #b100ff;
+    padding: 30px;
+    width: 700px;
+    height: 230px;
 }
-h4.body-projects-text{
-    margin-top: 30px;
-    max-width: 250px;
+.body-features-box2{
+    margin-top: 50px;
+    border: 8px solid #8e2e33;
+    padding: 30px;
+    width: 700px;
+    height: 230px;
+    background-color: #ff636c;
+}
+.body-features-box3{
+    margin-top: 50px;
+    border: 8px solid rgb(46, 142, 124);
+    padding: 30px;
+    width: 700px;
+    height: 230px;
+    background-color: #65e7ff;
+}
+.body-features-box4{
+    margin-top: 50px;
+    color: white;
+    border: 8px solid #7b0006;
+    padding: 30px;
+    width: 700px;
+    height: 230px;
+    background-color: #424242;
+}
+h1.title {
+    font-family: "MatrixSans";
+    color: white;
+    margin-left: 30px;
+    margin-top: 14px;
+    text-align: left;
+}
+
+.body-updates {
+    height: 500px;
+    background-image: url(assets/squares_v.png);
+    background-size: cover;
+    margin-left: -8px;
+    margin-right: -8px;
+    font-family: 'JUSTsans';
+    text-align: center;
+}
+.discord-button{
+    background-color: #4e59df;
+    border-radius: 12px;
+    padding: 8px;
+    color: white;
 }
