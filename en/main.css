@@ -1,12 +1,12 @@
 @font-face {
     font-family: "MatrixSans";
-    src: url("fonts/MatrixSans-Regular.woff2") format("woff2");
+    src: url("../fonts/MatrixSans-Regular.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: "JUSTsans";
-    src: url("fonts/JUSTSans-Rg.woff2") format("woff2");
+    src: url("../fonts/JUSTSans-Rg.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
 }
@@ -72,12 +72,12 @@ a.footer-item:visited{
 a#header-logo {
     width: 96px;
     height: 96px;
-    background-image: url(assets/ECSPdev.png)
+    background-image: url(../assets/images/ECSPdev.png)
 }
 a#header-logo:hover {
     width: 96px;
     height: 96px;
-    background-image: url(assets/ECSPdev_animated.gif)
+    background-image: url(../assets/images/ECSPdev_animated.gif)
 }
 
 .header-inline {
@@ -87,33 +87,33 @@ a#header-logo:hover {
 }
 a#navicon-sqr {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_sqr.png)
+    background-image: url(../assets/Navicons/navicons_sqr.png)
 }
 a#navicon-bdp {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_boredom.png)
+    background-image: url(../assets/Navicons/navicons_boredom.png)
 }
 a#navicon-rsc {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_resources.png)
+    background-image: url(../assets/Navicons/navicons_resources.png)
 }a#navicon-pfl {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_portfolio.png)
+    background-image: url(../assets/Navicons/navicons_portfolio.png)
 }
 a#navicon-sqr:hover {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_sqr_s.png)
+    background-image: url(../assets/Navicons/navicons_sqr_s.png)
 }
 a#navicon-bdp:hover {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_boredom_s.png)
+    background-image: url(../assets/Navicons/navicons_boredom_s.png)
 }
 a#navicon-rsc:hover {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_resources_s.png)
+    background-image: url(../assets/Navicons/navicons_resources_s.png)
 }a#navicon-pfl:hover {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_portfolio_s.png)
+    background-image: url(../assets/Navicons/navicons_portfolio_s.png)
 }
 
 /* Stuff */
@@ -124,7 +124,7 @@ a#navicon-rsc:hover {
     margin-left: -8px;
     margin-right: -8px;
     margin-top: -20px;
-    background-image: url(assets/squares.png);
+    background-image: url(../assets/images/squares.png);
     overflow: hidden;
 }
 .body-presentation-text {
@@ -151,7 +151,7 @@ a#navicon-rsc:hover {
     background-position: 90% 70%;
     background-size: 520px;
     background-repeat: no-repeat;
-    background-image: url(assets/ecspdragon.svg);
+    background-image: url(../assets/images/ecspdragon.svg);
 }
 
 .body-abitmore {

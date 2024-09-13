@@ -1,12 +1,12 @@
 @font-face {
     font-family: "MatrixSans";
-    src: url("fonts/MatrixSans-Regular.woff2") format("woff2");
+    src: url("../fonts/MatrixSans-Regular.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
 }
 @font-face {
     font-family: "JUSTsans";
-    src: url("fonts/JUSTSans-Rg.woff2") format("woff2");
+    src: url("../fonts/JUSTSans-Rg.woff2") format("woff2");
     font-style: normal;
     font-display: swap;
 }
@@ -72,12 +72,12 @@ a.footer-item:visited{
 a#header-logo {
     width: 96px;
     height: 96px;
-    background-image: url(assets/ECSPdev.png)
+    background-image: url(../assets/images/ECSPdev.png)
 }
 a#header-logo:hover {
     width: 96px;
     height: 96px;
-    background-image: url(assets/ECSPdev_animated.gif)
+    background-image: url(../assets/images/ECSPdev_animated.gif)
 }
 
 .header-inline {
@@ -87,19 +87,19 @@ a#header-logo:hover {
 }
 a#navicon-sqr {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_sqr_s.png)
+    background-image: url(../assets/Navicons/navicons_sqr_s.png)
 }
 a#navicon-bdp {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_boredom.png)
+    background-image: url(../assets/Navicons/navicons_boredom.png)
 }
 a#navicon-sqr:hover {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_sqr_s.png)
+    background-image: url(../assets/Navicons/navicons_sqr_s.png)
 }
 a#navicon-bdp:hover {
     height: 36px;
-    background-image: url(assets/Navicons/navicons_boredom_s.png)
+    background-image: url(../assets/Navicons/navicons_boredom_s.png)
 }
 
 /* Stuff */
@@ -111,7 +111,7 @@ a#navicon-bdp:hover {
     margin-right: -8px;
     margin-top: -20px;
     overflow: hidden;
-    background-image: url(assets/square_runner_bg.jpg);
+    background-image: url(../assets/images/square_runner_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -131,7 +131,7 @@ a#navicon-bdp:hover {
 }
 .body-features {
     height: 1600px;
-    background-image: url(assets/square_runner_ambient.png);
+    background-image: url(../assets/images/square_runner_ambient.png);
     background-size: cover;
     margin-left: -8px;
     margin-right: -8px;
@@ -191,7 +191,7 @@ h1.title {
 
 .body-updates {
     height: 500px;
-    background-image: url(assets/squares_v.png);
+    background-image: url(../assets/images/squares_v.png);
     background-size: cover;
     margin-left: -8px;
     margin-right: -8px;
