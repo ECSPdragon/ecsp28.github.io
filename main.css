@@ -16,7 +16,7 @@ body {
 .left-header{
     position: fixed;
     z-index: 9999;
-    display: inline-block;
+    display: inline-flex;
     background-color: rgba(255, 141, 148, 0.63);
     margin: 8px 0px 0px -8px;
     padding: 4px 16px 0px 12px;
@@ -85,6 +85,11 @@ a#header-logo:hover {
     display: block;
     margin: 0px 0px 10px 0px;
 }
+a#navicon-lang {
+    height: 36px;
+    background-image: url(assets/Navicons/navicons_engtoesp.png);
+    margin-top: 30px;
+}
 a#navicon-sqr {
     height: 36px;
     background-image: url(assets/Navicons/navicons_sqr.png)
@@ -99,6 +104,10 @@ a#navicon-rsc {
 }a#navicon-pfl {
     height: 36px;
     background-image: url(assets/Navicons/navicons_portfolio.png)
+}
+a#navicon-lang:hover {
+    height: 36px;
+    background-image: url(assets/Navicons/navicons_engtoesp_s.png)
 }
 a#navicon-sqr:hover {
     height: 36px;
