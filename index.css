@@ -125,6 +125,18 @@ a#navicon-rsc:hover {
     background-image: url(assets/Navicons/navicons_portfolio_s.png)
 }
 
+/* Splash Screen */
+.splash {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    padding-left: 48%;
+    padding-top: 50vh;
+}
+
 /* Stuff */
 .body-presentation {
     font-family: "JUSTsans";
