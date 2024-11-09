@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "MatrixSans";
+    src: url("../fonts/MatrixSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "JUSTsans";
+    src: url("../fonts/JUSTSans-Rg.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Monaspace";
+    src: url("../fonts/MonaspaceNeon-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-color: #191919;
+}
+
+.body-abitmore {
+    font-family: "JUSTsans";
+    color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    padding: 50px;
+    background-color: #000000;
+    overflow: hidden;
+    text-align: left;
+}
+.body-abitmore-flex{
+    display: flex;
+    justify-content: center;
+}
+.body-abitmore-text {
+    text-align: left;
+    color: white;
+    max-width: 700px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.body-abitmore-img{
+    width: 410px;
+    height: 512px;
+}
+
+p.showcase, li.showcase{
+    color: white;
+    font-family: "JUSTsans";
+    font-size: 20px;
+    margin: 0px 4vw 20px 4vw;
+}
+ h1.showcase{
+    color: white;
+    font-family: "monaspace";
+    font-size: 60px;
+    margin: 70px 4vw 10px 4vw;
+}
+div.showcase{
+    margin-bottom: 120px;
+    
+}

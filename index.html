@@ -5,11 +5,11 @@
     <meta name="description"
         content="ECSP's portfolio and other stuff" />
     <meta name="keywords"
-    content="ecsp, ecspdev, reptozoom, repto, square runner, square, runner, boredom project, bored, boredom, square guy, ecsp dev, escp, escpdev, escp dev" />
+    content="ecsp, ecspdev, square runner, square, runner, boredom project, bored, boredom, square guy, ecsp dev, escp, escpdev, escp dev" />
     <meta http-equiv="author"
     content="ECSP" />
     <meta property="og:title" content="ecsp.dev">
-    <meta property="og:image" content="https://ecsp.dev/assets/images/squares.png">
+    <meta property="og:image" content="/assets/background2.png">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ecsp.dev/">
     <meta property="og:description" content="ECSP's portfolio and other stuff">
@@ -18,91 +18,137 @@
     <meta name="twitter:site" content="@ecspdev">
     <meta name="twitter:description" content="ECSP's portfolio and other stuff">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:src" content="https://ecsp.dev/assets/images/squares.png">
+    <meta name="twitter:image:src" content="/assets/background2.png">
     
-    <meta name="theme-color" content="#862a97">
+    <meta name="theme-color" content="#c93061">
     
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <title>ecsp.dev</title>
 </head>
-<header>
-    <div class="left-header">
-        <a href="https://ecsp.dev" id="header-logo" class="header-inline"></a>
-        <abbr title="Poner página en Español"><a href="https://ecsp.dev/es" class="header-inline" id="navicon-lang"></a></abbr>
-    </div>
-    <div class="right-header">
-        <!--<abbr title="Square Runner"><a href="https://ecsp.dev/square-runner" class="header-inline" id="navicon-sqr"></a></abbr>-->
-        <abbr title="The Yawn Project"><a href="https://ecsp.dev/yawn" class="header-inline" id="navicon-bdp"></a></abbr>
-    </div>
-</header>
 <body>
-    <!-- Presentation Block
-    <div class="body-presentation">
-        <div class="body-presentation-text">
-            <h1 class="body-presentation-header">Hi, I'm ECSP!</h1>
-            <h2 class="body-presentation-subheader">I'm a game developer, artist and graphic designer.</h2>
-            <h3 class="body-presentation-checkit">Check out my projects on the top right!</h3>
+    <div class="socials-flex">
+        <div class="socials-box" style="background-color: #6c2257; margin-left: 5px;">
+            <a target="_blank" href="https://bsky.app/profile/ecsp.dev"><img src="assets/logo-bsky.png" style="width: 80%; height: 70%; margin-left: 4px; margin-top: 7px;"></a>
         </div>
-        <div class="body-presentation-ecspdragon"></div>
-    </div>
-    <!-- About me Block -->
-    <div class="body-abitmore">
-        <div class="body-abitmore-flex">
-            <img class="body-abitmore-img" src="assets/images/scarlet_dragon.png">
-            <p class="body-abitmore-text">I'm Male, 17 and from Barcelona, Spain. I am currently studying to become a game programmer, game designer and/or artist.<br /><br />
-            I want to bring my ideas to life and to create a little joy in this world through videogames! I've been a hobbyist game developer since 2020, using the GameMaker engine to learn and create. I believe that what makes a game good is how creative it is and how fun it is, none of that super realistic graphics crap is needed.<br /><br />
-            I'm an artist too! It's a hobby as well. I'm not a professional, but I'm good when it comes to concept art and great when it comes to Pixel art. I can draw better than the average person.<br /><br />
-            I'm a graphic designer too! It's not something I want to focus on professionally, but I can make pretty neat things.<br /><br />
-            I built this website myself! I don't have a lot of experience when it comes to building websites, but it looks great to me (I hate CSS). I use this website mainly as a portfolio, but I also want to put web games that I make here!
-            </p>
+        <div class="socials-box" style="background-color: #9f3180; margin-left: 5px;">
+            <a target="_blank" href="https://itch.ecsp.dev"><img src="assets/logo-itch.png" style="width: 80%; height: 80%; margin-left: 4px; margin-top: 5px;"></a>
         </div>
-        
+        <div class="socials-box" style="background-color: #6d2258; margin-left: 5px;">
+            <a target="_blank" href="https://youtube.ecsp.dev"><img src="assets/logo-yt.png" style="width: 80%; height: 60%; margin-left: 4px; margin-top: 8px;"></a>
+        </div>
     </div>
-    <!-- My Projects Block -->
-    <div class="body-projects">
-        <h1>These are my current projects!</h1>
-        <div class="body-projects-flex">
-            <!--<div class="body-projects-column">
-                <img class="body-projects-image" src="assets/images/square_runner.png" />
-                <h4 class="body-projects-text">Square Runner</h4>
-                <p class="body-projects-text">A crazy fast, challenging platformer in the works.</p>
-            </div>-->
-            <div class="body-projects-column">
-                <a href="https://ecsp.dev/yawn"><img class="body-projects-image" src="assets/images/boredom_project.png" /></a>
-                <h4 class="body-projects-text">The Yawn Project</h4>
-                <p class="body-projects-text">A collection of browser games for when you're bored.</p>
+    <div class="top-left-div" id="ecspdev-logo">
+        <img class="top-left" src="assets/ECSPdev.png" />
+        <p class="top-left">ecsp.dev</p>
+    </div>
+    <div class="dragon-container">
+        <div class="squares"> </div>
+        <img class="dragon" src="assets/dragon.png" />
+    </div>
+    <div id="boxes-container">
+        <div class="boxes-flex">
+            <div class="boxes" id="box-aboutme">
+                <div class="box-center">
+                    <h2 style="text-align: center; rotate: -45deg;">About me</h2>
+                    <!--img src="assets/boxes_aboutme.png" style="width: 100px; position: absolute; top: 8%; left: 8%; rotate: -45deg;" /-->
+                </div>
+            </div>
+            <div class="boxes" id="box-art">
+                <div class="box-center">
+                    <!--img src="assets/boxes_art.png" style="margin-left: auto; margin-right: auto; width: 50%; display: block; rotate: -45deg;" /-->
+                    <h2 style="text-align: center; rotate: -45deg; color: white;">My art</h2>
+                </div>
             </div>
         </div>
+        <div class="boxes-flex">
+            <div class="boxes" id="box-yawn">
+                <div class="box-center">
+                    <!--img src="assets/boxes_yawn.png" style="margin-left: auto; margin-right: auto; width: 50%; display: block; rotate: -45deg;" /-->
+                    <h2 style="text-align: center; rotate: -45deg; color:white;">Browser games</h2>
+                </div>
+            </div>
+            <div class="boxes"> </div>
+        </div>
+        <div class="boxes-flex">
+            <div class="boxes"> </div>
+            <div class="boxes"> </div>
+        </div>
     </div>
-</body>
-</html> 
-
-<!-- Footer elements -->
-<footer class="footer-content">
-    <div class="footer-block">
-        <h1 class="footer-title">ecsp.dev</h1>
-        <ul class="footer-list">
-            <li><a href="https://ecsp.dev" class="footer-item">Home page</a></li>
-            <!--<li><a href="https://ecsp.dev/square-runner" class="footer-item">Square Runner</a></li>-->
-            <li><a href="https://ecsp.dev/yawn" class="footer-item">The Yawn Project</a></li>
-        </ul>
-    </div>
-    <!-- Square Runner Footer element
-    <div class="footer-block">
-        <h1 class="footer-title">Square Runner</h1>
-        <ul class="footer-list">
-            <li><a href="https://ecsp.itch.io/square-runner" target="_blank" class="footer-item">Game page (Itch.io)</a></li>
-            <li><a href="https://discord.ecsp.dev" target="_blank" class="footer-item">Discord server</a></li>
-        </ul>
+    <!--
+    <div class="window-obscurer">
+        <div class="window-background">
+        </div>
     </div>
     -->
-    <div class="footer-block">
-        <h1 class="footer-title">Links</h1>
-        <ul class="footer-list">
-            <li><a href="https://itch.ecsp.dev" target="_blank" class="footer-item">Itch.io</a></li>
-            <li><a href="https://youtube.ecsp.dev" target="_blank" class="footer-item">Youtube</a></li>
-            <li><a href="mailto:contact@ecsp.dev" class="footer-item">Contact via e-mail</a></li>
-        </ul>
-    </div>
-</footer>
+</body>
+</html> 
+<script>
+    let on_menu = false;
+    
+    //Button functionality
+    const aboutme = document.getElementById("box-aboutme");
+    aboutme.addEventListener("click",function(){
+        openiFrame(0);
+    });
+    const art = document.getElementById("box-art");
+    art.addEventListener("click",function(){
+        openiFrame(1);
+    });
+    
+    //Functions for opening and closing iframes
+    function openiFrame(window_type) {
+        if (on_menu) exit;
+        on_menu = true;
+        
+        //Add obscurer
+        let obscurer = document.createElement("div");
+        obscurer.className = "window-obscurer";
+        obscurer.id = "obscurer";
+        document.body.appendChild(obscurer);
+
+        //Add background
+        let background = document.createElement("div");
+        background.className = "window-background";
+        background.id = "window-background";
+        document.getElementById("obscurer").appendChild(background);
+        
+        //Add back button
+        let back = document.createElement("button");
+        back.id = "window-back";
+        document.getElementById("obscurer").appendChild(back);
+        document.getElementById("window-back").onclick = function(){
+            closeiFrame();
+        }
+        
+        //Add iframe
+        switch (window_type){
+            case 0:{ //About me
+                //Add iframe
+                let iframe = document.createElement("iframe");
+                iframe.className = "window-iframe";
+                iframe.src = "/en/about.html";
+                document.getElementById("window-background").appendChild(iframe);
+                break;
+            }
+            case 1:{ //My art
+                let iframe = document.createElement("iframe");
+                iframe.className = "window-iframe";
+                iframe.src = "/en/art.html";
+                document.getElementById("window-background").appendChild(iframe);
+                break;
+            }
+        }
+    }
+    
+    function closeiFrame(){
+        if (!on_menu) exit;
+        on_menu = false;
+        
+        //Remove window elements
+        document.getElementById("obscurer").remove();
+        document.getElementById("background").remove();
+        document.getElementById("iframe").remove();
+        document.getElementById("back").remove();
+    }
+</script>
