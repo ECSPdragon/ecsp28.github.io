@@ -106,6 +106,9 @@
         obscurer.className = "window-obscurer";
         obscurer.id = "obscurer";
         document.body.appendChild(obscurer);
+        document.getElementById("obscurer").onclick = function(){
+            closeiFrame();
+        }
 
         //Add background
         let background = document.createElement("div");
