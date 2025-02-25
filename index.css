@@ -91,7 +91,7 @@ body{
 }
 
 /* Top left */
-img.top-left{
+#ecspdev-logo{
     width: 8vh;
     height: 8vh;
 }
@@ -190,13 +190,13 @@ p.top-left{
     opacity: 1;
     cursor: pointer;
 }
-#box-yawn{
+#box-studio{
     background-color: #262626;
     opacity: 1;
 }
-#box-yawn:hover{
+#box-studio:hover{
     animation: box-background-appear 0.5s cubic-bezier(0,0,0,1) 0s 1 normal forwards;
-    background-image: url(assets/icon_bgs/background_yawn.png);
+    background-image: url(assets/icon_bgs/background_studio.png);
     background-repeat: no-repeat;
     background-position: center;
     opacity: 1;
