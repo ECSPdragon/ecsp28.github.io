@@ -203,6 +203,31 @@ p.top-left{
     cursor: pointer;
 }
 
+.disclaimers {
+    position: absolute;
+    bottom: 0px;
+    font-family: "JUSTsans";
+    color: lightgray;
+}
+.disclaimers a {
+    color: white;
+}
+.blog {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: right;
+    margin-right: 8px;
+    font-family: "JUSTsans";
+    color: lightgray;
+}
+.blog a {
+    color: white;
+}
+.blog h3 {
+    margin-bottom: -12px;
+}
+
 /* Windows */
 @keyframes window-expand{
     0%{
