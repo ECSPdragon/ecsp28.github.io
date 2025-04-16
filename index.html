@@ -47,7 +47,7 @@
     </div>
     <div class="dragon-container">
         <div class="squares"> </div>
-        <img class="dragon" src="assets/dragon.png" />
+        <img class="dragon" src="assets/render.png" />
     </div>
     <div id="boxes-container">
         <div class="boxes-flex">
@@ -71,7 +71,12 @@
                     <h2 style="text-align: center; rotate: -45deg; color:white;">Studio ECSP</h2>
                 </div>
             </div>
-            <div class="boxes"> </div>
+            <div class="boxes" id="box-kofi">
+                <div class="box-center">
+                    <!--img src="assets/boxes_yawn.png" style="margin-left: auto; margin-right: auto; width: 50%; display: block; rotate: -45deg;" /-->
+                    <h2 style="text-align: center; rotate: -45deg; color:white;">Support me</h2>
+                </div>
+            </div>
         </div>
         <div class="boxes-flex">
             <div class="boxes"> </div>
@@ -106,6 +111,17 @@
     art.addEventListener("click",function(){
         openiFrame(1);
     });
+    /*
+    const studio = document.getElementById("box-studio");
+    studio.addEventListener("click",function(){
+        openiFrame(2);
+    });
+    */
+    const kofi = document.getElementById("box-kofi");
+    kofi.addEventListener("click",function(){
+        window.open("https://ko-fi.com/ecspdev");
+    });
+    
     
     //Functions for opening and closing iframes
     function openiFrame(window_type) {
@@ -150,6 +166,9 @@
                 iframe.className = "window-iframe";
                 iframe.src = "art.html";
                 document.getElementById("window-background").appendChild(iframe);
+                break;
+            }
+            case 2:{ //Studio
                 break;
             }
         }

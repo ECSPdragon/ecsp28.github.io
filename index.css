@@ -121,9 +121,9 @@ p.top-left{
     animation: squares-slidein 2s cubic-bezier(0,0,0,1) 0.5s 1 normal forwards;
     opacity: 0;
     display: inline-block;
-    height: 90%;
-    margin-top: 5vh;
-    margin-left: 8vw;
+    height: 80%;
+    margin-top: 8vh;
+    margin-left: -4vw;
 }
 
 /* Boxes */
@@ -197,6 +197,18 @@ p.top-left{
 #box-studio:hover{
     animation: box-background-appear 0.5s cubic-bezier(0,0,0,1) 0s 1 normal forwards;
     background-image: url(assets/icon_bgs/background_studio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    cursor: pointer;
+}
+#box-kofi{
+    background-color: #f2387f;
+    opacity: 1;
+}
+#box-kofi:hover{
+    animation: box-background-appear 0.5s cubic-bezier(0,0,0,1) 0s 1 normal forwards;
+    background-image: url(assets/icon_bgs/background_kofi.png);
     background-repeat: no-repeat;
     background-position: center;
     opacity: 1;
