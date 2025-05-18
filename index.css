@@ -18,16 +18,23 @@
 }
 
 body{
-    background-color: #6e1d57;
+    background-image: url(/assets/background.png);
+    background-size: cover;
+    overflow: hidden;
 }
 #welcome{
-    background-color: #581445;
+    background-image: none;
+    background-color: rgb(88, 20, 69, 0);
 }
 #welcome h1,p{
     color: white;
     font-family: "Monaspace";
     text-align: center;
 }
+#welcome p{
+    font-size: 24px;
+}
+
 .welcome-flex{
     width: 100%;
     height: 100%;
@@ -67,7 +74,6 @@ body{
 }
 .sidebar-elem img{
     max-width: 72px;
-    
     margin-right: 20px;
 }
 .sidebar-elem:hover{
@@ -77,7 +83,22 @@ body{
 iframe {
     float: right;
     height: 98vh;
-    width: 50%;
+    width: 55%;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10vw;
+}
+
+.disclaimers{
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+}
+.disclaimers p{
+    text-align: left;
+}
+.disclaimers a{
+    color: #e0155b;
 }
 
 /*

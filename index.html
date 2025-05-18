@@ -35,7 +35,7 @@
             <img src="assets/home/studioecsp.gif">
             <p>Studio ECSP</p>
         </div>
-        <div class="sidebar-elem">
+        <div class="sidebar-elem" id="box-blog">
             <img src="assets/home/blog.gif">
             <p>Blog</p>
         </div>
@@ -44,92 +44,40 @@
             <p>Support me</p>
         </div>
     </div>
-    <iframe src=/home.html></iframe>
+    <div class="disclaimers">
+        <p>By using ecsp.dev and its services, you're<br  />agreeing to our <a href="https://ecsp.dev/legal/ethics_agreement">ethics agreement</a>.</p>
+    </div>
+    <iframe title="a" src="/home.html" id="content"></iframe>
 </body>
 </html> 
 <script>
-    let on_menu = false;
+    
+    //Get iframe ID
+    const iframe = document.getElementById("content");
     
     //Button functionality
     const aboutme = document.getElementById("box-aboutme");
     aboutme.addEventListener("click",function(){
-        openiFrame(0);
+        iframe.setAttribute("src","/about.html");
     });
     const art = document.getElementById("box-art");
     art.addEventListener("click",function(){
-        openiFrame(1);
+        iframe.setAttribute("src","/art.html");
     });
-    /*
+
     const studio = document.getElementById("box-studio");
     studio.addEventListener("click",function(){
-        openiFrame(2);
+        window.open("https://studio.ecsp.dev");
     });
-    */
+    
+    const blog = document.getElementById("box-blog");
+    blog.addEventListener("click",function(){
+        iframe.setAttribute("src","https://ko-fi.com/ecspdev");
+    });
+
 
     const kofi = document.getElementById("box-kofi");
     kofi.addEventListener("click",function(){
-        window.open("https://ko-fi.com/ecspdev");
+        iframe.setAttribute("src","https://ko-fi.com/ecspdev");
     });
-    
-    //Functions for opening and closing iframes
-    function openiFrame(window_type) {
-        if (on_menu) exit;
-        on_menu = true;
-        
-        //Add obscurer
-        let obscurer = document.createElement("div");
-        obscurer.className = "window-obscurer";
-        obscurer.id = "obscurer";
-        document.body.appendChild(obscurer);
-        document.getElementById("obscurer").onclick = function(){
-            closeiFrame();
-        }
-
-        //Add background
-        let background = document.createElement("div");
-        background.className = "window-background";
-        background.id = "window-background";
-        document.getElementById("obscurer").appendChild(background);
-        
-        //Add back button
-        let back = document.createElement("button");
-        back.id = "window-back";
-        document.getElementById("obscurer").appendChild(back);
-        document.getElementById("window-back").onclick = function(){
-            closeiFrame();
-        }
-        
-        //Add iframe
-        switch (window_type){
-            case 0:{ //About me
-                //Add iframe
-                let iframe = document.createElement("iframe");
-                iframe.className = "window-iframe";
-                iframe.src = "about.html";
-                document.getElementById("window-background").appendChild(iframe);
-                break;
-            }
-            case 1:{ //My art
-                let iframe = document.createElement("iframe");
-                iframe.className = "window-iframe";
-                iframe.src = "art.html";
-                document.getElementById("window-background").appendChild(iframe);
-                break;
-            }
-            case 2:{ //Studio
-                break;
-            }
-        }
-    }
-    
-    function closeiFrame(){
-        if (!on_menu) exit;
-        on_menu = false;
-        
-        //Remove window elements
-        document.getElementById("obscurer").remove();
-        document.getElementById("background").remove();
-        document.getElementById("iframe").remove();
-        document.getElementById("back").remove();
-    }
 </script>
