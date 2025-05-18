@@ -87,6 +87,8 @@ iframe {
     border: none;
     border-radius: 10px;
     margin-right: 10vw;
+    
+    animation: anim-iframe-slide 0s cubic-bezier(0,0,0,1) 0s 1 normal forwards
 }
 
 .disclaimers{
@@ -100,6 +102,8 @@ iframe {
 .disclaimers a{
     color: #e0155b;
 }
+
+
 
 /*
 .window-obscurer{
