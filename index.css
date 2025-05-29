@@ -22,17 +22,24 @@ body{
     background-size: cover;
     overflow: hidden;
 }
-#welcome{
+#welcome{   
     background-image: none;
     background-color: rgb(88, 20, 69, 0);
 }
-#welcome h1,p{
+#welcome h1{
     color: white;
+    font-size: 4vw;
     font-family: "Monaspace";
     text-align: center;
 }
 #welcome p{
-    font-size: 24px;
+    font-size: 2vw;
+    color: white;
+    font-family: "Monaspace";
+    text-align: center;
+}
+#welcome img{
+    width: 60vw;
 }
 
 .welcome-flex{
@@ -42,18 +49,41 @@ body{
     justify-content: center;
     flex-direction: column;
     align-content: center;
+    align-items: center;
 }
 
-.sidebar{
+.sidebar-content{
     position: fixed;
     display: flex;
+    z-index: 998;
     flex-direction: column;
     justify-content: center;
     width: 25%;
     height: 100%;
     margin: -8px;
     background-color: rgba(0,0,0,0.7);
+    animation: none;
 }
+
+#sidebar-arrow{
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    width: 8vh;
+    height: 8vh;
+    
+    left: -25%;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    cursor: pointer;
+}
+#sidebar-arrow img{
+    height: 6vh;
+}
+
 .sidebar-elem{
     display: flex;
     justify-content: left;
@@ -65,7 +95,7 @@ body{
     
     text-align: left;
     letter-spacing: 6px;
-    font-size: 24px;
+    font-size: 1.3vw;
     color: white;
     
     margin-top: 10px;
@@ -73,7 +103,8 @@ body{
     margin-left: 10%;
 }
 .sidebar-elem img{
-    max-width: 72px;
+    width: 4vw;
+    height: 4vw;
     margin-right: 20px;
 }
 .sidebar-elem:hover{
@@ -87,24 +118,47 @@ iframe {
     border: none;
     border-radius: 10px;
     margin-right: 10vw;
-    
-    animation: anim-iframe-slide 0s cubic-bezier(0,0,0,1) 0s 1 normal forwards
 }
 
 .disclaimers{
+    font-family: "JUSTsans";
+    color: white;
     position: fixed;
-    bottom: 10px;
-    left: 20px;
+    bottom: 1vh;
+    left: 1vw;
+    z-index: 999;
+    max-width: 23vw;
 }
 .disclaimers p{
     text-align: left;
+    font-size: 0.8vw;
 }
 .disclaimers a{
     color: #e0155b;
 }
 
-
-
+/* Mobile support */
+@media only screen and (max-width: 720px){
+    .sidebar-content {
+        width: 50%;
+    }
+    #welcome p{
+        font-size: 4vw;
+    }
+    #welcome img{
+        width: 80%;
+    }
+    iframe {
+        height: 98vh;
+        width: 90vw;
+        margin-right: 4vw;
+    }
+    #sidebar-arrow{
+        top: 0%;
+        left: 50%;
+    }
+    
+}
 /*
 .window-obscurer{
     background-color: rgba(0,0,0,0.5);

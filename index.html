@@ -19,10 +19,18 @@
     
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
     <title>ecsp.dev</title>
 </head>
 <body>
-    <div class="sidebar">
+    <div class="sidebar-content" id="sidebar">
+        <div id="sidebar-arrow">
+            <img src=assets/arrow.png>
+        </div>
+
+        <!-- Buttons -->
         <div class="sidebar-elem" id="box-aboutme">
             <img src="assets/home/ecspdragon.gif">
             <p>About me</p>
@@ -43,11 +51,10 @@
             <img src="assets/home/kofi.gif">
             <p>Support me</p>
         </div>
+        <div class="disclaimers">
+            <p>By using ecsp.dev and its services, you're<br  />agreeing to follow the <a href="https://ecsp.dev/legal/ethics_agreement" target="_blank">ethics agreement</a>.</p>
+        </div>
     </div>
-    <div class="disclaimers">
-        <p>By using ecsp.dev and its services, you're<br  />agreeing to follow the <a href="https://ecsp.dev/legal/ethics_agreement" target="_blank">ethics agreement</a>.</p>
-    </div>
-    
     <!-- Iframe -->
     <iframe title="a" src="/home.html" id="content"></iframe>
 </body>
@@ -77,9 +84,32 @@
         //iframe.setAttribute("src","https://ko-fi.com/ecspdev");
     });
 
-
     const kofi = document.getElementById("box-kofi");
     kofi.addEventListener("click",function(){
         iframe.setAttribute("src","https://ko-fi.com/ecspdev");
+    });
+    
+    //Mobile support
+    let mobile_sidebar = false;
+    const sidebar = document.getElementById("sidebar");
+    const mobile_arrow = document.getElementById("sidebar-arrow");
+    
+    mobile_arrow.addEventListener("click",function(){
+        switch (mobile_sidebar){
+            case false:{
+                sidebar.style.animation = "none";
+                sidebar.offsetHeight = sidebar.offsetHeight;
+                sidebar.style.animation = "mobile-sidebar 1s cubic-bezier(0.5,0.5,0.5,1) 0s 1 normal alternate";
+                mobile_sidebar = true;
+                break;
+            }
+            case true:{
+                sidebar.style.animation = "none";
+                sidebar.offsetHeight = sidebar.offsetHeight;
+                sidebar.style.animation = "mobile-sidebar 1s cubic-bezier(0.5,0.5,0.5,1) 0s 1 normal alternate";
+                mobile_sidebar = false;
+                break;
+            }
+        }
     });
 </script>
