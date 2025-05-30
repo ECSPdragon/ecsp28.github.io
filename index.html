@@ -26,10 +26,6 @@
 </head>
 <body>
     <div class="sidebar-content" id="sidebar">
-        <div id="sidebar-arrow">
-            <img src=assets/arrow.png>
-        </div>
-
         <!-- Buttons -->
         <div class="sidebar-elem" id="box-aboutme">
             <img src="assets/home/ecspdragon.gif">
@@ -51,9 +47,7 @@
             <img src="assets/home/kofi.gif">
             <p>Support me</p>
         </div>
-        <div class="disclaimers">
-            <p>By using ecsp.dev and its services, you're<br  />agreeing to follow the <a href="https://ecsp.dev/legal/ethics_agreement" target="_blank">ethics agreement</a>.</p>
-        </div>
+        
     </div>
     <!-- Iframe -->
     <iframe title="a" src="/home.html" id="content"></iframe>
@@ -76,7 +70,7 @@
 
     const studio = document.getElementById("box-studio");
     studio.addEventListener("click",function(){
-        //window.open("https://studio.ecsp.dev");
+        window.open("https://studio.ecsp.dev");
     });
     
     const blog = document.getElementById("box-blog");

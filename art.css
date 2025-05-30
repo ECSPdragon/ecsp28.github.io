@@ -61,18 +61,47 @@ h1.banner {
     margin-right: -8px;
 }
 .art-section-text{
-    margin-left: 15vw;
+    margin-left: 6vw;
     color: white;
 }
 .image-holder{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 15vw;
+    margin-left: 10vw;
     margin-top: 50px;
     max-width: 70%;
 }
 .image-smaller{
     width: 30%;
     height: 30%;
+}
+
+@media only screen and (orientation: portrait){
+    div.banner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    h1.banner {
+        font-family: "monaspace";
+        color: white;
+        
+        font-size: 40px;
+        max-width: 60%;
+        
+        margin-top: 0px;
+        margin-bottom: -18px;
+        margin-left: 10vw;
+    }
+    p.banner {
+        margin-left: 10vw;
+        font-size: 20px;
+    }
+    .image-holder{
+        max-width: 80%;
+    }
+    .image-smaller{
+        width: 50%;
+        height: 50%;
+    }
 }

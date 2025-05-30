@@ -62,26 +62,6 @@ body{
     height: 100%;
     margin: -8px;
     background-color: rgba(0,0,0,0.7);
-    animation: none;
-}
-
-#sidebar-arrow{
-    background-color: rgba(0,0,0,0.7);
-    position: fixed;
-    width: 8vh;
-    height: 8vh;
-    
-    left: -25%;
-    
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    
-    cursor: pointer;
-}
-#sidebar-arrow img{
-    height: 6vh;
 }
 
 .sidebar-elem{
@@ -93,7 +73,6 @@ body{
     
     font-family: "JUSTsans";
     
-    text-align: left;
     letter-spacing: 6px;
     font-size: 1.3vw;
     color: white;
@@ -123,25 +102,65 @@ iframe {
 .disclaimers{
     font-family: "JUSTsans";
     color: white;
-    position: fixed;
-    bottom: 1vh;
-    left: 1vw;
     z-index: 999;
-    max-width: 23vw;
 }
 .disclaimers p{
     text-align: left;
-    font-size: 0.8vw;
 }
 .disclaimers a{
     color: #e0155b;
 }
 
 /* Mobile support */
-@media only screen and (max-width: 720px){
+@media only screen and (orientation: portrait){
     .sidebar-content {
-        width: 50%;
+        position: fixed;
+        display: flex;
+        z-index: 998;
+        
+        flex-flow: row;
+        justify-content: center;
+        align-content: center;
+        
+        width: 100%;
+        height: 16vh;
+        bottom: 0px;
+        
+        background-color: rgba(0, 0, 0, 0.7);
     }
+    .sidebar-elem{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-flow: column;
+        
+        text-align: center;
+        letter-spacing: 6px;
+        font-size: 1.3vw;
+        color: white;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidebar-elem img{
+        height: 12vh;
+        width: 12vh;
+        
+        max-width: 50%;
+        max-height: 50%;
+        
+        object-fit: contain;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidebar-elem p{
+        text-align: center;
+        letter-spacing: 3px;
+        
+        font-size: 14px;
+    }
+    
     #welcome p{
         font-size: 4vw;
     }
@@ -149,13 +168,9 @@ iframe {
         width: 80%;
     }
     iframe {
-        height: 98vh;
+        height: 83vh;
         width: 90vw;
-        margin-right: 4vw;
-    }
-    #sidebar-arrow{
-        top: 0%;
-        left: 50%;
+        margin-right: 3vw;
     }
     
 }

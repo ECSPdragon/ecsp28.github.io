@@ -45,8 +45,8 @@ body{
     margin-left: 15px;
 }
 .body-abitmore-img{
-    width: 410px;
-    height: 512px;
+    max-width: 410px;
+    max-height: 512px;
 }
 
 p.showcase, li.showcase{
@@ -64,4 +64,15 @@ p.showcase, li.showcase{
 div.showcase{
     margin-bottom: 120px;
     
+}
+
+@media only screen and (orientation: portrait){
+    .body-abitmore-flex{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .body-abitmore-text {
+        margin-top: 16px;
+    }
 }
