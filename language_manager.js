@@ -57,58 +57,73 @@ function load_language(){
 function content_set_to_language(lang){
     switch (lang){
         case "es":{
-            const langselector = document.getElementById("langselector-spanish");
-            langselector.style = "color:white;";
-            
             //Página principal
-            const index_sidebar_aboutme = document.getElementById("-loc-index-sidebar-aboutme");
-            const index_sidebar_portfolio = document.getElementById("-loc-index-sidebar-portfolio");
-            const index_sidebar_studioecsp = document.getElementById("-loc-index-sidebar-studioecsp");
-            const index_sidebar_blog = document.getElementById("-loc-index-sidebar-blog");
-            const index_sidebar_supportme = document.getElementById("-loc-index-sidebar-supportme");
+            if (window.location.pathname == "/" || window.location.pathname == "/index.html"){
+                const langselector = document.getElementById("langselector-spanish");
+                langselector.style = "color:white;";
 
-            index_sidebar_aboutme.textContent = "Sobre mí";
-            index_sidebar_portfolio.textContent = "Portafolio";
-            index_sidebar_studioecsp.textContent = "Studio ECSP";
-            index_sidebar_blog.textContent = "Publicaciones";
-            index_sidebar_supportme.textContent = "Apoyame";
+                const index_sidebar_aboutme = document.getElementById("-loc-index-sidebar-aboutme");
+                const index_sidebar_portfolio = document.getElementById("-loc-index-sidebar-portfolio");
+                const index_sidebar_studioecsp = document.getElementById("-loc-index-sidebar-studioecsp");
+                const index_sidebar_blog = document.getElementById("-loc-index-sidebar-blog");
+                const index_sidebar_supportme = document.getElementById("-loc-index-sidebar-supportme");
+
+                index_sidebar_aboutme.textContent = "Sobre mí";
+                index_sidebar_portfolio.textContent = "Portafolio";
+                index_sidebar_studioecsp.textContent = "Studio ECSP";
+                index_sidebar_blog.textContent = "Publicaciones";
+                index_sidebar_supportme.textContent = "Apoyame";
+            }
             
             //Menu Home
-            const home_welcome = document.getElementById("-loc-home-welcome");
-            const home_explanation = document.getElementById("-loc-home-explanation");
-            const home_disclaimer = document.getElementById("-loc-home-disclaimer");
+            if (window.location.pathname == "/home.html"){
+                const home_welcome = document.getElementById("-loc-home-welcome");
+                const home_explanation = document.getElementById("-loc-home-explanation");
+                const home_disclaimer = document.getElementById("-loc-home-disclaimer");
+
+                home_welcome.textContent = "Bienvenido a ecsp.dev";
+                home_explanation.textContent = "Usa la barra de la izquierda para navegar por las páginas del sitio.";
+                home_disclaimer.innerHTML = "Al usar ecsp.dev y sus servicios, aceptas<br  />seguir el <a href='https://ecsp.dev/legal/ethics_agreement' target='_blank'>documento de acuerdos éticos</a>.";
+            }
             
-            home_welcome.textContent = "Bienvenido a ecsp.dev";
-            home_explanation.textContent = "Usa la barra de la izquierda para navegar el sitio.";
-            home_disclaimer.textContent = "Al usar ecsp.dev y sus servicios, aceptas seguir el ";
+            //Sobre mí
+            if (window.location.pathname == "/about.html"){
+                const about_main = document.getElementById("-loc-about-main");
+                
+                about_main.innerHTML = "Tengo 18 años y soy de Barcelona. Actualmente estoy estudiando para ser programado y diseñador designer y/o artista.<br /><br />¡Quiero expresar mis ideas y manifestar mi pasión creativa por medio de los videojuegos y el arte! He estado trabajando en juegos desde 2020 como hobby, usando los motores GameMaker y Godot para aprender y crear y también soy artista desde 2022 como hobby también, dibujando por diversión con Krita.<br /><br />¡Esta página la he hecho yo solito!. Uso esta página principalmente para enseñar lo que hago, ¡pero si alguna vez tengo tiempo y me apetece, meteré juegos web también!<br /><br />A lo mejor me ves en convenciones sobre videojuegos en Cataluña o España.<br /><br />";
+            }
             
             break;
         }
         case "ca":{ //Català
-            const langselector = document.getElementById("langselector-catalan");
-            langselector.style = "color:white;";
-            
             //Pàgina principal
-            const index_sidebar_aboutme = document.getElementById("-loc-index-sidebar-aboutme");
-            const index_sidebar_portfolio = document.getElementById("-loc-index-sidebar-portfolio");
-            const index_sidebar_studioecsp = document.getElementById("-loc-index-sidebar-studioecsp");
-            const index_sidebar_blog = document.getElementById("-loc-index-sidebar-blog");
-            const index_sidebar_supportme = document.getElementById("-loc-index-sidebar-supportme");
+            if (window.location.pathname == "/" || window.location.pathname == "/index.html"){
+                const langselector = document.getElementById("langselector-catalan");
+                langselector.style = "color:white;";
 
-            index_sidebar_aboutme.textContent = "Sobre mi";
-            index_sidebar_portfolio.textContent = "Dossier";
-            index_sidebar_studioecsp.textContent = "Studio ECSP";
-            index_sidebar_blog.textContent = "Publicacions";
-            index_sidebar_supportme.textContent = "Dona";
+                const index_sidebar_aboutme = document.getElementById("-loc-index-sidebar-aboutme");
+                const index_sidebar_portfolio = document.getElementById("-loc-index-sidebar-portfolio");
+                const index_sidebar_studioecsp = document.getElementById("-loc-index-sidebar-studioecsp");
+                const index_sidebar_blog = document.getElementById("-loc-index-sidebar-blog");
+                const index_sidebar_supportme = document.getElementById("-loc-index-sidebar-supportme");
+
+                index_sidebar_aboutme.textContent = "Sobre mi";
+                index_sidebar_portfolio.textContent = "Dossier";
+                index_sidebar_studioecsp.textContent = "Studio ECSP";
+                index_sidebar_blog.textContent = "Publicacions";
+                index_sidebar_supportme.textContent = "Dona";
+            }
             
             //Menu Home
-            const home_welcome = document.getElementById("-loc-home-welcome");
-            const home_explanation = document.getElementById("-loc-home-explanation");
-            const home_disclaimer = document.getElementById("-loc-home-disclaimer");
-            
-            home_welcome.textContent = "Benvingut a ecsp.dev";
-            home_explanation.textContent = "Utilitza la barra a l'esquerra per navegar pel lloc web.";
-            home_disclaimer.textContent = "A l'utilitzar ecsp.dev i els seus serveis, acceptes que seguiràs el ";
+            if (window.location.pathname == "/home.html"){
+                const home_welcome = document.getElementById("-loc-home-welcome");
+                const home_explanation = document.getElementById("-loc-home-explanation");
+                const home_disclaimer = document.getElementById("-loc-home-disclaimer");
+
+                home_welcome.textContent = "Benvingut a ecsp.dev";
+                home_explanation.textContent = "Utilitza la barra a l'esquerra per navegar per les pàgines del lloc web.";
+                home_disclaimer.innerHTML = "A l'utilitzar ecsp.dev i els seus serveis, acceptes<br  />seguir el <a href='https://ecsp.dev/legal/ethics_agreement' target='_blank'>document d'acords ètics</a>.";
+            }
             
             break;
         }

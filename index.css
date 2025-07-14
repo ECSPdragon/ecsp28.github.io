@@ -24,23 +24,27 @@ body{
     overflow: hidden;
 }
 
-#welcome{   
+.welcome{   
     background-image: none;
     background-color: rgb(88, 20, 69, 0);
 }
-#welcome h1{
+.welcome h1{
     color: white;
     font-size: 4vw;
     font-family: "Monaspace";
     text-align: center;
 }
-#welcome p{
+.welcome p{
     font-size: 2vw;
     color: white;
     font-family: "Monaspace";
     text-align: center;
 }
-#welcome img{
+.welcome a{
+    font-size: 2vw;
+    font-family: "Monaspace";
+}
+.welcome img{
     width: 60vw;
 }
 
@@ -60,7 +64,6 @@ body{
     top: 1px;
     right: 10px;
     
-    font-size: 60px;
     color: white;
     text-align: right;
     font-family: 'JUSTsans';
