@@ -13,14 +13,15 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <title>ecsp.dev</title>
 </head>
-    <body id="welcome">
+    <body id="welcome" onload="load_language()">
         <div class="welcome-flex">
-            <h1>Welcome to ecsp.dev</h1>
-            <p>Use the bar on the left to navigate through the different pages of the site.</p>
+            <h1 id="-loc-home-welcome">Welcome to ecsp.dev</h1>
+            <p id="-loc-home-explanation">Use the bar on the left to navigate through the different pages of the site.</p>
             <img src=/assets/render.png>
             <div class="disclaimers">
-                <p>By using ecsp.dev and its services, you're<br  />agreeing to follow the <a href="https://ecsp.dev/legal/ethics_agreement" target="_blank">ethics agreement</a>.</p>
+                <p id="-loc-home-disclaimer">By using ecsp.dev and its services, you're<br  />agreeing to follow the <a href="https://ecsp.dev/legal/ethics_agreement" target="_blank">ethics agreement</a>.</p>
             </div>
         </div>
     </body>
 </html>
+<script src="language_manager.js"></script>

@@ -24,28 +24,33 @@
     
     <title>ecsp.dev</title>
 </head>
-<body>
+<body onLoad="load_language()"> <!-- Load language here -->
+    <div class="langselector">
+        <h4 id="langselector-spanish">Español</h4>
+        <h4 id="langselector-catalan">Català</h4>
+        <h4 id="langselector-english">English</h4>
+    </div>
     <div class="sidebar-content" id="sidebar">
         <!-- Buttons -->
         <div class="sidebar-elem" id="box-aboutme">
             <img src="assets/home/ecspdragon.gif">
-            <p>About me</p>
+            <p id="-loc-index-sidebar-aboutme">About me</p>
         </div>
         <div class="sidebar-elem" id="box-art">
             <img src="assets/home/art.gif">
-            <p>Portfolio</p>
+            <p id="-loc-index-sidebar-portfolio">Portfolio</p>
         </div>
         <div class="sidebar-elem" id="box-studio">
             <img src="assets/home/studioecsp.gif">
-            <p>Studio ECSP</p>
+            <p id="-loc-index-sidebar-studioecsp">Studio ECSP</p>
         </div>
         <div class="sidebar-elem" id="box-blog">
             <img src="assets/home/blog.gif">
-            <p>Blog (W.I.P.)</p>
+            <p id="-loc-index-sidebar-blog">Blog (W.I.P.)</p>
         </div>
         <div class="sidebar-elem" id="box-kofi">
             <img src="assets/home/kofi.gif">
-            <p>Support me</p>
+            <p id="-loc-index-sidebar-supportme">Support me</p>
         </div>
         
     </div>
@@ -54,11 +59,11 @@
 </body>
 </html> 
 <script>
-    
+    //Button functionality
     //Get iframe ID
     const iframe = document.getElementById("content");
     
-    //Button functionality
+    //Sidebar button functionality
     const aboutme = document.getElementById("box-aboutme");
     aboutme.addEventListener("click",function(){
         iframe.setAttribute("src","/about.html");
@@ -75,7 +80,7 @@
     
     const blog = document.getElementById("box-blog");
     blog.addEventListener("click",function(){
-        //iframe.setAttribute("src","https://ko-fi.com/ecspdev");
+        iframe.setAttribute("src","b");
     });
 
     const kofi = document.getElementById("box-kofi");
@@ -83,27 +88,24 @@
         iframe.setAttribute("src","https://ko-fi.com/ecspdev");
     });
     
-    //Mobile support
-    let mobile_sidebar = false;
-    const sidebar = document.getElementById("sidebar");
-    const mobile_arrow = document.getElementById("sidebar-arrow");
+    //Language button functionality
+    const lang_spanish = document.getElementById("langselector-spanish");
+    const lang_catalan = document.getElementById("langselector-catalan");
+    const lang_english = document.getElementById("langselector-english");
     
-    mobile_arrow.addEventListener("click",function(){
-        switch (mobile_sidebar){
-            case false:{
-                sidebar.style.animation = "none";
-                sidebar.offsetHeight = sidebar.offsetHeight;
-                sidebar.style.animation = "mobile-sidebar 1s cubic-bezier(0.5,0.5,0.5,1) 0s 1 normal alternate";
-                mobile_sidebar = true;
-                break;
-            }
-            case true:{
-                sidebar.style.animation = "none";
-                sidebar.offsetHeight = sidebar.offsetHeight;
-                sidebar.style.animation = "mobile-sidebar 1s cubic-bezier(0.5,0.5,0.5,1) 0s 1 normal alternate";
-                mobile_sidebar = false;
-                break;
-            }
-        }
+    lang_spanish.addEventListener("click",function(){
+        cookie_set_lang("es");
+        location.reload();
     });
+    lang_catalan.addEventListener("click",function(){
+        cookie_set_lang("ca");
+        location.reload();
+    });
+    lang_english.addEventListener("click",function(){
+        cookie_set_lang("en");
+        location.reload();
+    });
+    alert(window.location.pathname);
+
 </script>
+<script src="language_manager.js"></script>

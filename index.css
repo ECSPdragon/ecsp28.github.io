@@ -18,10 +18,12 @@
 }
 
 body{
+    background-color: #bc275a;
     background-image: url(/assets/background.png);
     background-size: cover;
     overflow: hidden;
 }
+
 #welcome{   
     background-image: none;
     background-color: rgb(88, 20, 69, 0);
@@ -50,6 +52,31 @@ body{
     flex-direction: column;
     align-content: center;
     align-items: center;
+}
+
+.langselector {
+    position: fixed;
+    z-index: 9999;
+    top: 1px;
+    right: 10px;
+    
+    font-size: 60px;
+    color: white;
+    text-align: right;
+    font-family: 'JUSTsans';
+}
+.langselector h4 {
+    margin: 8px;
+}
+
+#langselector-spanish{
+    color:  #9b9b9b;
+}
+#langselector-catalan{
+    color:  #9b9b9b;
+}
+#langselector-english{
+    color:  #9b9b9b;
 }
 
 .sidebar-content{
