@@ -29,3 +29,10 @@
     </div>
 </body>
 </html>
+<script>
+    const inIframe = window.self !== window.top;
+    
+    if (!inIframe){
+        document.body.style.background = "#951354";
+    }
+</script>
