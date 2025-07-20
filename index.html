@@ -5,7 +5,7 @@
     <meta name="description"
         content="Polygonal Dragons ahead, you've been warned" />
     <meta name="keywords"
-    content="ecsp, escp, ecspdev, escpdev, developer, game developer, ecsp dev, escp dev, dev, game dev, game developer, game artist, spain, españa, artist, spain artist, spain game dev, game dev spain" />
+    content="ecsp, escp, ecspdev, escpdev, studio ecsp, studio escp, ecsp dev, escp dev, dev, game dev, polygonal dragon, polydragon" />
     <meta http-equiv="author"
     content="ECSP" />
     
@@ -46,7 +46,7 @@
         </div>
         <div class="sidebar-elem" id="box-blog">
             <img src="assets/home/blog.gif">
-            <p id="-loc-index-sidebar-blog">Blog (W.I.P.)</p>
+            <p id="-loc-index-sidebar-blog">Entries</p>
         </div>
         <div class="sidebar-elem" id="box-kofi">
             <img src="assets/home/kofi.gif">
@@ -80,7 +80,7 @@
     
     const blog = document.getElementById("box-blog");
     blog.addEventListener("click",function(){
-        iframe.setAttribute("src","b");
+        iframe.setAttribute("src","/posts.html");
     });
 
     const kofi = document.getElementById("box-kofi");
@@ -95,15 +95,18 @@
     
     lang_spanish.addEventListener("click",function(){
         cookie_set_lang("es");
-        location.reload();
+        load_language();
+        iframe.contentWindow.load_language();
     });
     lang_catalan.addEventListener("click",function(){
         cookie_set_lang("ca");
-        location.reload();
+        load_language();
+        iframe.contentWindow.load_language();
     });
     lang_english.addEventListener("click",function(){
         cookie_set_lang("en");
-        location.reload();
+        load_language();
+        iframe.contentWindow.load_language();
     });
 
 </script>

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "MatrixSans";
+    src: url("fonts/MatrixSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "JUSTsans";
+    src: url("fonts/JUSTSans-Rg.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Monaspace";
+    src: url("fonts/MonaspaceNeon-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background-size: cover;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'JUSTsans';
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.entries{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.post-entry {
+    width: 95vw;
+    height: 200px;
+    margin: 1vh 0vw 1vh 1.5vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'JUSTsans';
+    color: white;
+}
+.post-entry h2 {
+    margin-left: 16px;
+    max-width: 80%;
+}
+.post-entry p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: 16px;
+    margin-top: -10px;
+}
+.post-info {
+    color: lightgray;
+}
+
+.tag {
+    font-family: "monaspace";
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 300px;
+    vertical-align: 4px;
+    font-size: 15px;
+}

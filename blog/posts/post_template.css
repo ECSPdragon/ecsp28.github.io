@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "MatrixSans";
+    src: url("../../fonts/MatrixSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "JUSTsans";
+    src: url("../../fonts/JUSTSans-Rg.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Monaspace";
+    src: url("../../fonts/MonaspaceNeon-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.header{
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px 120px 20px 120px;
+    margin: -8px -8px 0px -8px;
+    
+    color: white;
+    font-family: "Monaspace";
+    
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+.header h3{
+    color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+.header-author{
+    display: flex;
+    align-items: center;
+}
+.header-author img{
+    width: 48px;
+    height: 48px;
+    border-radius: 32px;
+}
+.header-author h4{
+    font-size: 20px;
+    margin-left: 12px;
+    color: lightgray;
+}
+.text{
+    background-image: url(../../assets/blogs/background.png);
+    background-size: 64px;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 66vh;
+    
+    padding: 60px 120px 60px 120px;
+    margin: 0px -8px -8px -8px;
+    
+    word-spacing: 1px;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    font-family: "JUSTsans";
+}
+.text h1{
+    font-family: "Monaspace";
+    text-transform: uppercase;
+}
+.text h2{
+    font-family: "Monaspace";
+}
+
+hr {
+    color: white;
+}
+
+/* Mobile support */
+@media only screen and (orientation: portrait){
+    .header{
+        padding: 60px 50px 20px 50px;
+    }
+    .header h1{
+        font-size: 30px;
+    }
+    .header-author img{
+        width: 32px;
+        height: 32px;
+    }
+    .header-author h4{
+        font-size: 14px;
+    }
+    
+    .text{
+        padding: 60px 50px 60px 50px;
+        font-size: 18px;
+    }
+    .text h1{
+        line-height: 40px;
+    }
+}

@@ -18,7 +18,7 @@
 }
 
 body{
-    background-color: #bc275a;
+    background-color: #951354;
     background-image: url(/assets/background.png);
     background-size: cover;
     overflow: hidden;
@@ -75,11 +75,20 @@ body{
 #langselector-spanish{
     color:  #9b9b9b;
 }
+#langselector-spanish:hover{
+    cursor: pointer;
+}
 #langselector-catalan{
     color:  #9b9b9b;
 }
+#langselector-catalan:hover{
+    cursor: pointer;
+}
 #langselector-english{
     color:  #9b9b9b;
+}
+#langselector-english:hover{
+    cursor: pointer;
 }
 
 .sidebar-content{

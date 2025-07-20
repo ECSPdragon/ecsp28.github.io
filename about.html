@@ -16,37 +16,41 @@
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <title>About me // ecsp.dev</title>
 </head>
-<body>
+<body onload="load_language()">
 <div class="body-abitmore">
     <div class="body-abitmore-flex">
         <img class="body-abitmore-img" src="/assets/scarlet_dragon.png">
-        <p class="body-abitmore-text">I'm 18 and from Barcelona, Spain. I am currently studying to become a game programmer, game designer and/or artist.<br /><br />
+        <p class="body-abitmore-text" id="-loc-about-main">I'm 18 and from Barcelona, Spain. I am currently studying to become a game programmer, game designer and/or artist.<br /><br />
         I want to bring my ideas to life and to express my creative passion through videogames and art! I've been a hobbyist game developer since 2020, using the GameMaker and Godot engines to learn and create
-        and a hobbyist artist since 2022, drawing for fun using Krita.<br /><br />
+        and a hobbyist artist since 2022. Very recently, I also started producing electronic music recently, updates soon!<br /><br />
         I built this website myself! I don't have a lot of experience when it comes to building websites, but it looks great to me. I use this website mainly as a portfolio, but I also want to put web games that I make here!<br /><br />
         You might see me at  videogame or gamedev related events and conventions around Catalonia or Spain!<br /><br />
         </p>
     </div>
 </div>
 <div class="showcase">
-    <h1 class="showcase" style="color: #ff0044;">GAMES</h1>
-    <p class="showcase">I've been interested in making games since sixth grade, but I haven't been able to actually make any serious projects until recently with HIThit.<br  />
+    <h1 class="showcase" style="color: #ff0044;" id="-loc-about-title-games">GAMES</h1>
+    <p class="showcase" id="-loc-about-desc-games">I've been interested in making games since fifth grade, but I haven't been able to actually make any serious projects until recently with HIThit.<br  />
         I've mastered Gamemaker and I'm in the process of learning to use Godot Engine.<br  />
         I make games under the alias "Studio ECSP" and I work on those projects with other people!</p>
     
-    <h1 class="showcase" style="color: #00cdff;">DIGITAL ART</h1>
-    <p class="showcase">My favorite kinds of art to do are concept art, dragons and cartooniness. I love anything Art Deco, Neon or just plain fancy.<br  />
+    <h1 class="showcase" style="color: #00cdff;" id="-loc-about-title-art">DIGITAL ART</h1>
+    <p class="showcase" id="-loc-about-desc-art">My favorite kinds of art to do are concept art, dragons, lizards and heavily stylized stuff. I love anything Art Deco, Neon or just plain fancy.<br  />
         I use an <a style="color:lightgray;" target="_blank" href="https://www.xp-pen.com/product/artist-16-2nd-gen.html">XP-PEN Artist 16" Drawing Tablet.</a> See my art <a style="color:lightgray;" target="_self" href="https://ecsp.dev/art">here!</a>
     </p>
     
-    <h1 class="showcase" style="color: #ff3c00;">3D MODELS</h1>
-    <p class="showcase">I like doing low-poly and cartoonish modeling using Blender and Blockbench.</p>
+    <h1 class="showcase" style="color: #ff3c00;" id="-loc-about-title-3d">3D MODELS</h1>
+    <p class="showcase" id="-loc-about-desc-3d">I like doing low-poly and stylized modeling using Blender and Blockbench.</p>
     
-    <h1 class="showcase" style="color: #747474;">OTHER STUFF I DO RARELY</h1>
+    <h1 class="showcase" style="color: #006bff;" id="-loc-about-title-music">MUSIC</h1>
+    <p class="showcase" id="-loc-about-desc-music">I've started experimenting with electronic music recently and want to do a five song EP this summer, updates soon!<br  />My biggest inspirations are <a style="color:lightgray;" href="https://incrediblepolo.bandcamp.com/album/ages" target="_blank">Incredible Polo</a>, <a style="color:lightgray;" href="https://mildhighclub.bandcamp.com/album/skiptracing" target="_blank">Mild High Club</a>, <a style="color:lightgray;" href="https://soundcloud.com/porter-robinson" target="_blank">Porter Robinson</a>, <a style="color:lightgray;" href="https://songs4lizards.bandcamp.com/album/pom-pom-guillotine" target="_blank">Lizzy's personal army</a> and <a style="color:lightgray;" href="https://snuffles.bandcamp.com/" target="_blank">snuffles.</a></p>
+ 
+    <h1 class="showcase" style="color: #747474;" id="-loc-about-title-other">OTHER STUFF I DO RARELY</h1>
     <ul>
-        <li class="showcase">Graphic design</li>
-        <li class="showcase">Random Coding Projects</li>
+        <li class="showcase" id="-loc-about-desc-other1">Graphic design</li>
+        <li class="showcase" id="-loc-about-desc-other2">Random Coding Projects (like this website!)</li>
     </ul>
 </div>
 </body>
 </html>
+<script src="language_manager.js"></script>
